@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws SQLException, IllegalAccessException, NoSuchMethodException, InstantiationException, InvocationTargetException {
 
         String username = "root";
-        String password = "toronto1995";
+        String password = "12345";
 
         Connector.createConnection(username, password, "orm_db");
         EntityManager<User> entityManager = new EntityManager<>(Connector.getConnection());
